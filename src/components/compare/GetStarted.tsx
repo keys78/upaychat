@@ -7,13 +7,13 @@ import { CreditCard, CheckCircle, Cardholder, Bank, ChartLineUp, CurrencyEur, De
 const GetStarted = () => {
   return (
     <>
-      <section className="flex items-start space-x-8 page__wrapper py-20">
+      <section className="flex md:flex-row flex-col items-start md:space-x-8 md:space-y-0 space-y-10 page__wrapper py-20">
         <div>
           <div>
-            <span className="text-[18px] pb-3 text-gray-500">Basic</span>{" "}
+            <span className="text-[18px] md:pb-3 text-gray-500">Basic</span>{" "}
             <span className="bg-gray-100 px-1 rounded-md">Popular</span>
           </div>
-          <h4 className="text-[36px] mt-6">Free</h4>
+          <h4 className="text-[36px] md:mt-6">Free</h4>
           <h4 className="text-[18px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur, dolores!
@@ -27,9 +27,9 @@ const GetStarted = () => {
         </div>
         <div>
           <div>
-            <span className="text-[18px] pb-3 text-gray-500">Premium</span>
+            <span className="text-[18px] md:pb-3 text-gray-500">Premium</span>
           </div>
-          <h4 className="text-[36px] mt-6">
+          <h4 className="text-[36px] md:mt-6">
             $6 <span className="text-gray-400 text-[16px]">per month</span>
           </h4>
           <h4 className="text-[18px]">
@@ -45,9 +45,9 @@ const GetStarted = () => {
         </div>
         <div>
           <div>
-            <span className="text-[18px] pb-3 text-gray-500">Gold</span>
+            <span className="text-[18px] md:pb-3 text-gray-500">Gold</span>
           </div>
-          <h4 className="text-[36px] mt-6">
+          <h4 className="text-[36px] md:mt-6">
             $12 <span className="text-gray-400 text-[16px]">per month</span>
           </h4>
           <h4 className="text-[18px]">
