@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page__wrapper { padding-left: 150px; padding-right: 150px; margin: 0 auto;}
+
+@media screen and (max-width: 1024px) {
+    .page__wrapper { padding-left: 50px; padding-right: 50px;}
+}
+@media screen and (max-width: 767px) {
+    .page__wrapper { padding-left: 20px; padding-right: 20px;}
+}
